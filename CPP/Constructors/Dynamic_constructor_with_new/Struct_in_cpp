@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+struct cpp_struct{
+    int a;
+    char name[10];
+    void fun();
+};
+struct void fun(void)
+{
+    cout <<"cpp struct is called";
+    
+}
+//typedef struct cpp_struct 
+int main()
+{
+    struct cpp_struct myown;
+    myown.fun();
+    return 0;
+    
+}
