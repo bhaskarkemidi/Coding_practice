@@ -1,0 +1,43 @@
+
+#include <iostream>
+class B;
+class A{
+  int i;
+  public:
+  A():i{0}{
+      std::cout<<"the base class: "<<i<<std::endl;
+  }
+  void fun();
+  //friend class B;
+  //friend void B::fun1();
+};
+class B{
+    int g;
+    public:
+    void fun1()
+    {
+     //   A obj;
+    //    obj.fun();
+       // A::i=5;
+        //std::cout<<"this is friend class"<<i<<std::endl;
+    }
+    friend void A::fun();
+};
+
+void A::fun()
+ {
+      //i=5;
+      //std::cout << "The base class: "<<i<<std::endl;
+      B obj;
+      obj.g=20;
+      std::cout<<obj.g;
+ }
+int main()
+{
+    A a;
+    B b;
+    a.fun();
+    //B b;
+    //b.fun1();
+    return 0;
+}

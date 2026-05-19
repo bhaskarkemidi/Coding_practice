@@ -1,0 +1,37 @@
+MASTER CARD ISO 8583 - 1987
+
+Transaction using creadit or debit CARD
+DEBIT CARD: Monety will deducted immediately.
+CREDIT CARD: the limit what you have will be verified, borrow with limit. Authentication is done
+as first step. Clearing and settlement as next step - 2 process.
+
+Authorization:
+Agenda: 
+1. complete transaction cycle
+2. Message types
+3. Data Elements.
+4. Message Flows and functionalities.
+
+Components:
+1. card holder
+2. Merchant
+3. Acquirer host
+4. Acquirer mip
+5. banknet
+6. Issuer mip
+7. Issuer host
+
+Message Types (MTI - message type indicaters)
+1. Authorization Request (0100)/Response(0110).
+2. Authorization Advice Request (0120)/ Response (0130).
+3. Aquirer Reversal Request (0400)/ Response (0410).
+4. Reversal Advice Request (0420)/Response(0430).
+5. Network Management (0800)
+
+Authorization is the process through which a merchant obtains permission from a customer cards transaction.
+
+Dual message clearing:
+The dual message process is used by VISA and Master card for creadit and signature based debit transactions.
+Dual message transactions ususally require a physical or electronic signature. This category includes credit 
+card transactions.
+     

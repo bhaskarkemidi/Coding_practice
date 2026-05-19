@@ -1,0 +1,20 @@
+In the field of software engineering continuous integration (CI) and continuous delivery (CD) are the essential 
+practices for developing and delivering software efficiently and reliably.
+CI involves regularly integrating code changes into a shared repository, allowing developers to detect and 
+address issues early on. 
+CD, on the other hand, extends CI by automating the deployment process, enabling frequent and seamleass releases of software
+
+To achieve successful CI/CD, teams employ various tools and technique. One widely used tool is JENKINS,  an open source
+automation server that supports the entire CI/CD pipeline. It provides functionalities such as building, testing, and 
+deploying applications, all while ensuring code quality and version control.
+
+Another Key technique used in CI/CD is containerization, which involves encapsulating an application and its dependencies
+into isolated contan=iners. Docker is an popular platform for containerization, allowing developers to package their 
+application in a poratable and consistent format. Containers facilitate faster and more efficient development, testing 
+and deployment processes.
+
+In addition to tools and techniques, CI/CD relies on effective collaboration and communication within development teams.
+Agile methodologies, such as Scrum and Kanban, promote iterative development and close collaboration between development
+and close collaboration between develoeprs, testers, and other stake holders. This iterative approach ensures that 
+feedback is incorpotated throughout the software development lifecycle
+, leading to faster delivery and higher quality software.

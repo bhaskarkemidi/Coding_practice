@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+class Example{
+    int *data;
+    public:
+    Example(int x){
+    data = new int;
+    *data = x;
+    }
+    Example(const Example& e){
+        data = new int;
+        *data = *e.data;
+    }
+    void display()
+    {
+        cout<<*data<<endl;
+    }
+};
+int main()
+{
+    Example ex(3);
+    Example ex1(ex);
+    ex.display();
+    ex1.display();
+    return 0;
+    
+}

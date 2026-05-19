@@ -1,0 +1,58 @@
+
+Agile methodology 
+
+Agile methodology is an iterative and incremental approach to project management and software development. 
+It emphasizes flexibility, collaboration, and customer satisfaction. The Agile methodology was developed as a
+response to the traditional waterfall model, which follows a linear and sequential approach.
+
+Key Principles of Agile Methodology:
+
+Customer Collaboration over Contract Negotiation:
+Agile focuses on continuous customer involvement and feedback throughout the project to ensure the end product 
+meets their needs.
+
+Responding to Change over Following a Plan: Agile embraces change and understands that requirements evolve over 
+time. It encourages adaptability and welcomes changes even in the later stages of development.
+
+Individuals and Interactions over Processes and Tools: Agile values effective communication and collaboration 
+among team members. It emphasizes the importance of face-to-face interactions and teamwork.
+
+Working Software over Comprehensive Documentation: Agile prioritizes delivering a working product incrementally 
+over extensive documentation. While documentation is still important, the emphasis is on creating tangible results.
+
+Key Practices in Agile Methodology:
+
+Iterative Development: Projects are divided into small iterations or sprints, typically lasting 1-4 weeks. 
+Each iteration results in a potentially shippable product increment.
+
+Scrum: Scrum is a popular framework within Agile. It includes specific roles (Product Owner, Scrum Master, 
+and Development Team), events (such as daily stand-ups and sprint reviews), and artifacts (such as the product
+backlog and sprint backlog).
+
+Kanban: Kanban is another Agile framework that focuses on visualizing the workflow and limiting work in progress. 
+It helps teams manage their tasks and optimize the flow of work.
+
+Continuous Integration and Continuous Delivery: Agile promotes frequent integration of code changes and continuous 
+delivery of software. This ensures that the software is always in a releasable state and reduces the risk of
+integration issues.
+
+Benefits of Agile Methodology:
+
+Flexibility: Agile allows for changes and adjustments during the project, providing flexibility to adapt to 
+evolving requirements.
+
+Faster Delivery: The iterative approach of Agile enables the delivery of working software increments in shorter
+time frames.
+
+Improved Customer Satisfaction: Agile involves regular customer collaboration and feedback, resulting in a product
+that better aligns with customer expectations.
+
+Enhanced Team Collaboration: Agile fosters a collaborative work environment, where team members work closely 
+together, communicate effectively, and share responsibilities.
+
+Higher Quality: Continuous testing and integration in Agile lead to early bug detection, resulting in 
+higher-quality software.
+
+It's important to note that there are various Agile methodologies, including Scrum, Kanban, Extreme Programming 
+(XP), and Lean, each with its own specific practices and principles. Teams often adapt and tailor these methodologies
+to suit their specific project requirements
